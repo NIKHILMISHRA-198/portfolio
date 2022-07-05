@@ -11,8 +11,10 @@ import {
 } from "native-base";
 import Banner from "./Components/Banner";
 import Certificate from "./Components/Certificates/Certificate";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Project from "./Components/Projects/Project";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
   const { colorMode } = useColorMode();
@@ -29,9 +31,11 @@ function App() {
       <Banner />
       <Project />
       <Certificate />
+      {/* <Skills /> */}
       <Box justifyContent="flex-end" zIndex={"-1"} padding={4}>
         <ToggleDarkMode zIndex="-1" />
       </Box>
+      <Footer />
     </Box>
   );
 }
