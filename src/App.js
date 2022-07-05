@@ -8,13 +8,14 @@ import {
   Switch,
   useColorMode,
   VStack,
+  ZStack,
 } from "native-base";
 import Banner from "./Components/Banner";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Project from "./Components/Projects/Project";
 import Skills from "./Components/Skills/Skills";
-
+import Wave from "react-wavify";
 function App() {
   const { colorMode } = useColorMode();
 
@@ -27,6 +28,7 @@ function App() {
       px={4}
     >
       <Navbar />
+
       <Banner />
       <Project />
       {/* <Skills /> */}
