@@ -5,7 +5,7 @@ import React from "react";
 function Banner() {
   return (
     <Box shadow={8}>
-      <Box padding={6} flexDirection={["column", "row"]}>
+      <Box padding={6} flexDirection={["column-reverse", "row"]}>
         <VStack
           textAlign={["justify", "left"]}
           space={5}
@@ -46,7 +46,7 @@ function Banner() {
               shadow: 9,
               borderWidth: 0,
             }}
-            borderRadius={100}
+            borderRadius={200}
             source={{
               // uri: "https://media-exp1.licdn.com/dms/image/C4E03AQHl2FZW4fe3gg/profile-displayphoto-shrink_200_200/0/1622976644460?e=1662595200&v=beta&t=qahvamXd1Q9qsIO4SVCFPd5LDAAQ7it1hUUmScM9fzY",
               uri: require("../assets/profileIMG.png"),
