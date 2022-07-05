@@ -10,8 +10,10 @@ import {
   VStack,
 } from "native-base";
 import Banner from "./Components/Banner";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Project from "./Components/Projects/Project";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
   const { colorMode } = useColorMode();
@@ -27,9 +29,11 @@ function App() {
       <Navbar />
       <Banner />
       <Project />
+      {/* <Skills /> */}
       <Box justifyContent="flex-end" zIndex={"-1"} padding={4}>
         <ToggleDarkMode zIndex="-1" />
       </Box>
+      <Footer />
     </Box>
   );
 }
