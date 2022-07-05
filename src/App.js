@@ -10,6 +10,7 @@ import {
   VStack,
 } from "native-base";
 import Banner from "./Components/Banner";
+import Certificate from "./Components/Certificates/Certificate";
 import Navbar from "./Components/Navbar";
 import Project from "./Components/Projects/Project";
 
@@ -27,6 +28,7 @@ function App() {
       <Navbar />
       <Banner />
       <Project />
+      <Certificate />
       <Box justifyContent="flex-end" zIndex={"-1"} padding={4}>
         <ToggleDarkMode zIndex="-1" />
       </Box>
