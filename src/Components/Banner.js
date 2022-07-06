@@ -32,7 +32,7 @@ function Banner() {
           maxWidth={["100%", "50%"]}
         >
           <Text fontWeight={800} fontSize={"xl"}>
-            I'm Nikhil, a
+            I'm Pankhuri, a
           </Text>
           <Text fontWeight={600} fontSize={"l"}>
             WEB DEVELOPER
@@ -68,8 +68,8 @@ function Banner() {
             }}
             borderRadius={200}
             source={{
-              // uri: "https://media-exp1.licdn.com/dms/image/C4E03AQHl2FZW4fe3gg/profile-displayphoto-shrink_200_200/0/1622976644460?e=1662595200&v=beta&t=qahvamXd1Q9qsIO4SVCFPd5LDAAQ7it1hUUmScM9fzY",
-              uri: require("../assets/profileIMG.png"),
+              uri: "https://pbs.twimg.com/profile_images/1515618328496140290/mwEiFZ4t_400x400.jpg",
+              // uri: require("../assets/profileIMG.png"),
             }}
             alt="Alternate Text"
             size="2xl"
