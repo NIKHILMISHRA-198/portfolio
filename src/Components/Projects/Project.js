@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Text,
-  Image,
-  VStack,
-  HStack,
-  Icon,
-  Button,
-  Link,
-} from "native-base";
+import { Box, Text, Image, VStack, HStack } from "native-base";
 
 function Project() {
   return (
@@ -27,17 +18,17 @@ function Project() {
             width={["100%", "50%"]}
             borderRadius={4}
             source={{
-              uri: "https://storage.googleapis.com/crio-content-container-assets/ME_ME_PROJECT_AMAZON_CLONE_REACT_MODULE_ME_PROJECT_AMAZON_CLONE_REACT_MODULE_AMAZON_CLONE_REACT_9_sample_app_screenshot.png",
+              uri: "https://i.ytimg.com/vi/HGnoJnKhSXY/maxresdefault.jpg",
               //   uri: require("../../assets/profileIMG.png"),
             }}
             alt="Alternate Text"
             size="2xl"
           />
         </Box>
-        <Box marginTop={4} width={["100%", "200"]}>
+        <Box marginTop={4} width={["100%", "40%"]}>
           <VStack space={4} textAlign={["center", "justify"]}>
             <Text bold underline>
-              Amazon Clone
+              Full Stack Ecommerce
             </Text>
             <Text>
               Built using MERN Stack with full stack implementation.Users can
@@ -77,7 +68,7 @@ function Project() {
             size="2xl"
           />
         </Box>
-        <Box marginTop={4} width={["100%", "200"]}>
+        <Box marginTop={4} width={["100%", "40%"]}>
           <VStack space={4} textAlign={["center", "justify"]}>
             <Text bold underline>
               Amazon Clone

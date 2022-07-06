@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Breadcrumb,
-  Center,
-  HStack,
-  Link,
-  Text,
-  VStack,
-} from "native-base";
+import { Box, Center, HStack, Link, Text, VStack } from "native-base";
 function Footer() {
   return (
     <Box
