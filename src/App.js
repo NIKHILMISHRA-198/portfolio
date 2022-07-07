@@ -4,6 +4,7 @@ import Certificate from "./Components/Certificates/Certificate";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Project from "./Components/Projects/Project";
+import Testimonials from "./Components/Testimonials/Testimonials";
 
 function App() {
   const { colorMode } = useColorMode();
@@ -22,6 +23,7 @@ function App() {
       <Project />
       <Certificate />
       {/* <Skills /> */}
+      <Testimonials />
       <Box justifyContent="flex-end" zIndex={"-1"} padding={4}>
         <ToggleDarkMode zIndex="-1" />
       </Box>
