@@ -13,6 +13,7 @@ function Certificate() {
         paddingRight={8}
         justifyContent={"space-between"}
         flexDir={["column", "row"]}
+        flexWrap={"wrap"}
       >
         <HStack marginBottom={2} marginTop={2}>
           <Image
@@ -96,7 +97,7 @@ function Certificate() {
           </VStack>
         </HStack>
 
-        {/* <HStack marginBottom={2} marginTop={2}>
+        <HStack marginBottom={2} marginTop={2}>
           <Image
             alt="Hey"
             size={["10", "20"]}
@@ -176,7 +177,7 @@ function Certificate() {
               </Button>
             </Link>
           </VStack>
-        </HStack> */}
+        </HStack>
       </Box>
     </Box>
   );
