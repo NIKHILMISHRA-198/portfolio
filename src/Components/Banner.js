@@ -1,6 +1,7 @@
 import { Box, VStack, Text, Image, Center } from "native-base";
 import React from "react";
 import Wave from "react-wavify";
+import Typewriter from "typewriter-effect";
 // import ProfileIMG from "../assets/profileIMG.png";
 
 function Banner() {
@@ -32,10 +33,22 @@ function Banner() {
           maxWidth={["100%", "50%"]}
         >
           <Text fontWeight={800} fontSize={"xl"}>
-            I'm Pankhuri, a
+            I'm Pankhuri,
           </Text>
-          <Text fontWeight={600} fontSize={"l"}>
-            WEB DEVELOPER
+          <Text bold fontSize={"xl"}>
+            {/* WEB DEVELOPER */}
+            <Typewriter
+              options={{
+                strings: [
+                  "a Web Developer",
+                  "a TECH ENTHUSIAST",
+                  "an AVID READER",
+                  "a PUBLIC SPEAKER",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </Text>
           <Text fontWeight={500} fontSize={"m"}>
             I am passionate about technology and particularly web development.
